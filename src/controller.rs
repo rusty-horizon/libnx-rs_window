@@ -1,8 +1,5 @@
-
-
-
 use input::{HatState, ControllerButton, ControllerHat, Event, Input, ButtonArgs, Button, ButtonState};
-use libnx_rs::libnx::{HidControllerKeys};
+use nx::sys::{HidControllerKeys};
 
 pub struct LibnxButtonId {}
 
