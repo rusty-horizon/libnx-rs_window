@@ -1,7 +1,7 @@
 
 // TODO: make this dependent on whether libnx-rs is loaded
 // from the sysroot
-extern crate libnx_rs;
+extern crate nx;
 extern crate window; 
 extern crate input; 
 
