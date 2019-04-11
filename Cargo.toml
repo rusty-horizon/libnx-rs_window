@@ -1,13 +1,13 @@
 [package]
-name = "pistoncore-libnx-rs_window"
+name = "pistoncore-libnx_window"
 version = "0.1.0"
-authors = ["ischeinkman <scheinkman.ilan@gmail.com>"]
+authors = [ "ischeinkman <scheinkman.ilan@gmail.com>", "leo60228 <iakornfeld@gmail.com>" ]
 
 [lib]
 name = "libnx_rs_window"
 
 [dependencies]
-libnx-rs = {git = "https://github.com/ischeinkman/libnx-rs"}
+nx = { git = "https://github.com/rusty-horizon/libnx" }
 pistoncore-input = "0.21.0"
 pistoncore-window = "0.32.0"
 egl = { git = "https://github.com/ischeinkman/rust-egl" }
