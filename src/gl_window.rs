@@ -2,8 +2,8 @@
 use egl;
 use std::ptr;
 
-use libnx_rs::libnx;
-use libnx_rs::libnx::{HidControllerID, hidScanInput};
+use nx::sys as libnx;
+use nx::sys::{HidControllerID, hidScanInput};
 
 use window::{BuildFromWindowSettings, Window, WindowSettings, Size, Position, OpenGLWindow, AdvancedWindow, ProcAddress};
 use input::Input;
